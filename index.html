@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autec Smart Sales Engine — Inteligência Comercial Laboratorial</title>
+    <meta
+      name="description"
+      content="Plataforma de inteligência comercial com IA da Autec para equipamentos laboratoriais: argumentos técnicos em tempo real, comparativos normativos, radar de concorrência e dashboard do gestor."
+    />
+    <meta property="og:title" content="Autec Smart Sales Engine — Inteligência Comercial Laboratorial" />
+    <meta
+      property="og:description"
+      content="Conheça as funcionalidades principais, o público-alvo e o diferencial tecnológico da plataforma Autec Smart Sales Engine."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-[#1B2E5E] selection:text-white dark:selection:bg-[#F59E0B] dark:selection:text-slate-950 transition-colors duration-200">
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('autec-theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

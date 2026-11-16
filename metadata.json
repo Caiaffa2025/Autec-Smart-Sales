@@ -1,0 +1,6 @@
+{
+  "name": "Autec Smart Sales Engine",
+  "description": "Plataforma de inteligência comercial com IA para vendas consultivas de equipamentos laboratoriais: funcionalidades principais, público-alvo, diferencial tecnológico e workspace interativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
